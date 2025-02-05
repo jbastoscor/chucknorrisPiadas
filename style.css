@@ -1,0 +1,32 @@
+
+        body {  
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+        #container { /* Container para centralizar o conteúdo  */
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+        }
+        #piada { /* Div para exibir a piada */
+            font-size: 18px; 
+            margin-bottom: 20px; /* Espaçamento entre a piada e o botão */
+        }
+        button { 
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover { /* efeito hover  quer dizer que quando o mouse passar por cima do botão ele vai mudar de cor */
+            background-color: #e68900;
+        }
+    
