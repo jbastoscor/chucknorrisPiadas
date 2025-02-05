@@ -1,7 +1,8 @@
 async function novaPiada() { // Função para buscar uma nova piada na API
   try { // try serve para tentar executar o código, caso dê erro, ele cai no catch que é o bloco de código que trata o erro :)
 
-      const response = await fetch('https://api.chucknorris.io/jokes/random'); // fetch é uma função que faz uma requisição HTTP para a URL passada como argumento. O await serve para esperar a resposta da requisição, que é assíncrona.
+      const response = await fetch('https://api.chucknorris.io/jokes/random'); // fetch é uma função que faz uma requisição HTTP para a 
+      // URL passada como argumento. O await serve para esperar a resposta da requisição, que é assíncrona.
       if (!response.ok) throw new Error('Erro ao buscar a piada'); // Se a resposta não for ok, ele cai no catch e exibe a mensagem de erro. O throw serve para lançar um erro, por exemplo, se a resposta não for ok, ele lança um erro que vai para o catch.
 
       const data = await response.json(); // O await serve para esperar a resposta da requisição, que é assíncrona. O response.json() é uma função que converte a resposta da requisição em um objeto JavaScript! 
